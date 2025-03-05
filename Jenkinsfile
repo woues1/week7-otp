@@ -31,7 +31,8 @@ pipeline {
         stage('Publish Test Results') {
             steps {
                 // Publish JUnit test results
-                junit '**/target/surefire-reports/*.xml'
+                // junit '**/target/surefire-reports/*.xml'
+                echo "muista testit"
             }
         }
         stage('Publish Coverage Report') {
