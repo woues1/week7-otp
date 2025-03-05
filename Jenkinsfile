@@ -3,14 +3,14 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS_ID = 'Docker_Hub'
-        DOCKERHUB_REPO = ''
-        DOCKER_IMAGE_TAG = 'ver2'
+        DOCKERHUB_REPO = 'tonihirv/week7-otp'
+        DOCKER_IMAGE_TAG = 'ver1'
     }
 
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/ADirin/devopschain_f2024.git'
+                git 'https://github.com/woues1/week7-otp.git'
             }
         }
         stage('Run Tests') {
