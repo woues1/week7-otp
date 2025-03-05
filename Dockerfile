@@ -14,5 +14,5 @@ COPY . /app/
 RUN mvn package
 
 # Run the main class from the built JAR
-CMD ["java", "-jar", "target/Tripcalculator.jar"]
+CMD ["java", "-jar", "target/tripcalculator.jar"]
 
