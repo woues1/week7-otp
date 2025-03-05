@@ -45,7 +45,7 @@
             <!-- Other plugins like compiler, jar, jacoco... -->
 
             <!-- Surefire Plugin for running tests -->
-           <!-- <plugin>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.2.5</version>
@@ -56,7 +56,7 @@
                         <include>**/*Tests.java</include>
                     </includes>
                 </configuration>
-            </plugin> -->
+            </plugin>
 
 
             <!-- JaCoCo Plugin for code coverage -->
